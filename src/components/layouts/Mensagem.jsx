@@ -18,13 +18,17 @@ function Mensagem({ mensagem_p1, mensagem_p2, remetente = "Sua Vida." }) {
   }, []);
   
   return (
-    <div ref={containerRef} className={styles.mensagem_container}>
-        <h1>Para Meu Amor:</h1>
+   <div ref={containerRef} className={styles.mensagem_container}>
+        <h1>Para o meu amor:</h1>
         <div className={styles.paragrafo_romantico}>
-            <p>{mensagem_p1 }</p>
-            <p>{mensagem_p2 + "❤️❤️"}</p>
-            <p>Com todo meu amor, </p>
-            <p>{remetente}</p>
+            <p>
+                Que seja mais uma data especial na nossa vida juntos, que possamos viver intencionalmente juntos celebrando todos os nossos momentos especiais de nossas vidas, que nosso amor indestrutível nunca se rompe,
+            </p>
+            <p>
+                pois eu agradeço milhões de vezes a vida por ter encontrado você para mim, eu te amo e te amarei infinitas vezes até não caber mais descrições do tamanho da minha paixão que tenho por você, eu amo demais ser seu namorado ❤️❤️
+            </p>
+            <p>Com todo meu amor,</p>
+            <p>Diogo</p> {/* Substitua "Seu Namorado" pelo seu nome, se preferir! */}
         </div>
     </div>
   );

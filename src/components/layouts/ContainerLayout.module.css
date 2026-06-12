@@ -1,7 +1,16 @@
-.container{
+.container {
     width: 100%;
+    min-height: 100vh; /* Garante que o fundo cubra a tela toda */
     margin: 0 auto;
-    padding: 1rem .5rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
+    
+    /* NOVO: Fundo romântico escuro (Preto para um Vinho/Rosa muito profundo) */
+    background: linear-gradient(180deg, #090004 0%, #1a000a 50%, #2b0014 100%);
+    
+    /* NOVO: Cor do texto geral mais suave (Branco com um toque de rosa) */
+    color: #fff0f5; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }

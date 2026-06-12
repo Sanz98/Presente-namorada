@@ -5,12 +5,14 @@ function SpotifyPlayer() {
   return (
     <div className={`${styles.spotifyPlayer} ${anima.slideInTop}`}>
       <iframe
-        src="https://open.spotify.com/embed/track/1PQRwFvNM7xV65bIkHmDtx?utm_source=generator"
+        src="https://open.spotify.com/embed/track/3PlKQNlbL4767rND3HnqSI?utm_source=generator&si=d1459c5382064077"
+        width="100%"
+        height="100%"
         frameBorder="0"
-        allowFullScreen
+        allowFullScreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
-        title="Spotify Player"
+        title="Nossa Música"
       ></iframe>
     </div>
   );
